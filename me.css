@@ -1,0 +1,240 @@
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    flex-grow: 1;
+}
+
+p:first-letter {
+    font-family: "Times New Roman", Times, serif;
+    /* Гарнитура шрифта первой буквы */
+    font-size: 200%;
+    /* Размер шрифта первого символа */
+    color: red;
+}
+
+hr {
+    border: none;
+    /* Убираем границу */
+    background-color: #ccc;
+    /* Цвет линии */
+    color: #ccc;
+    /* Цвет линии для IE6-7 */
+    height: 2px;
+    /* Толщина линии */
+}
+
+/*главная*/
+
+.header {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 13px #000000;
+    background-color: #A9A9A9;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 109px;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.60;
+    font-family: 'Playfair Display', serif;
+}
+
+.site-menu {
+    display: flex;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.site-menu>li {
+    display: flex;
+}
+
+.menu-link {
+
+    display: flex;
+    align-items: center;
+    padding: 0 51px;
+    background-color: #A9A9A9;
+    color: #000000;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration-line: underline;
+    text-shadow: #000000 1px 0 10px;
+    flex-wrap: wrap;
+}
+
+
+
+.logo-shadow {
+    box-shadow: 1px 1px 4px 1px #000000;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.main {
+    flex-grow: 1;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 911px;
+    height: 720px;
+    left: 264px;
+    top: 113px;
+}
+
+.main-heading {
+    font-style: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 28px 37px 32px 151px;
+}
+
+.photo-my {
+
+    height: 500px;
+    box-shadow: 1px 1px 4px 1px #000000;
+}
+
+.leftimg {
+    float: left;
+    /* Выравнивание по левому краю */
+    margin: 53px 7px 7px 0;
+    /* Отступы вокруг картинки */
+}
+
+.h2 {
+    font-style: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text-main {
+    font-style: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 47px 0px 0px 435px;
+}
+
+/*education*/
+
+.diplom-photo {
+    height: 200px;
+    margin: 108px;
+    margin-top: 14px;
+    box-shadow: 1px 1px 4px 1px #000000;
+
+}
+
+.education-name {
+    display: flex;
+
+}
+
+.basic-main {
+    margin: 32px -31px;
+    font-size: 23px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 89px;
+
+}
+
+.text-main-education {
+
+    font-size: 22px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: -65px 20px;
+}
+
+.basic-education {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -22px;
+}
+
+
+/*job*/
+
+.job-my {
+    margin: 35px;
+    margin-top: 37px;
+}
+
+.line {
+    border-left: 2px solid #ccc;
+    /* Параметры линии */
+    margin-left: 20px;
+    /* Отступ слева */
+    padding-left: 47px;
+    /* Расстояние от линии до текста */
+}
+
+.logo-photo {
+    height: 200px;
+    margin: 108px;
+    margin-top: 14px;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #A9A9A9;
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 0 13px #A9A9A9;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px 10px 968px;
+    height: 81px;
+    margin-top: -60px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo-footer {
+    display: flex;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.menu-footer {
+
+    display: flex;
+    align-items: center;
+
+    background-color: #A9A9A9;
+    color: #000000;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration-line: underline;
+
+    text-shadow: #000000 1px 0 10px;
+    flex-wrap: wrap;
+}
